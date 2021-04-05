@@ -1,0 +1,14 @@
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+[*.{bash,sh}]
+# We use tabs because bash only allows
+# hard tabs for indentation with here-docs
+# using the <<- redirection operator.
+indent_style = tab
+indent_size = 2
